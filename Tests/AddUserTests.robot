@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 Resource   ../Keywords/Pages/webtablespage.resource
 Resource   ../Keywords/Workflows/UserModalWorkflows.resource
 
-Test Setup        Open Browser    https://www.way2automation.com/angularjs-protractor/webtables/    chrome
+Test Setup        Open Browser    https://www.way2automation.com/angularjs-protractor/webtables/    headlesschrome
 Test Teardown     Close All Browsers
 
 
