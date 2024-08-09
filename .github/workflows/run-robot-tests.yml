@@ -29,7 +29,8 @@ jobs:
 
     - name: Run Robot Framework Tests
       run: |
-        robot --outputdir results tests/
+        ls
+        robot --outputdir results Tests/
       
     - name: Upload Test Results
       uses: actions/upload-artifact@v3
